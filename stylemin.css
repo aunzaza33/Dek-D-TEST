@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0px;
+    background-color:rgb(255, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.Thread{
+    width: 500px;
+    margin: 50px auto 0px;
+    color: rgb(3, 3, 3);
+    background: rgb(255, 200, 168);
+    text-align: left;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1px;
+    box-shadow: 0 0 0 3px rgb(236, 133, 48);
+}
+.Thread h2{
+  text-align: center;
+  color: rgb(255, 115, 0);
+}
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(255, 253, 253);
+    background: rgb(236, 133, 48);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.btnreset {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #60c79c;
+  border: none;
+  border-radius: 5px;
+  align-items: left;
+  text-align: left;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+  /* Style the tab */
+
+ul{
+display: flex;
+background:rgb(250, 235, 212);
+border-radius:10px;
+overflow:hidden;
+margin:0;
+padding:0;
+
+}
+ul li {
+  list-style: none;
+  width: 150px;
+  display:block;
+}
+ul li a{
+display:block;
+padding:10px;
+text-align:left;
+color: rgb(0, 0, 0);
+transition: 0.5s;
+text-decoration: none;
+}
+ul li.active a{
+  color: #ffffff;
+  background:rgb(255, 178, 77) ;
+}
+ul li a:hover {
+  background-color: rgb(248, 153, 74);
+  color: black;
+}
+.Thread a{
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+
+  
+
